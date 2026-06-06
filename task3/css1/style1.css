@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    direction: ltr; 
+body {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #fff;
+    flex-direction: row; 
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #2b5c5f;
+    text-align: left;
+}
+.logo-icon {
+    width: 15px;
+    height: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 8px; 
+}
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #2b5c5f;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 10% 40px 10%;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.hero .sub-text {
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    font-size: 0.95rem;
+}
+.btn-join {
+    background-color: #2b5c5f;
+    color: #ffffff;
+    border: none;
+    padding: 12px 35px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn-join:hover {
+    background-color: #1e4143;
+}
+.hero-images {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.hero-images .img-box {
+    flex: 1;
+    max-width: 500px;
+    height: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.hero-images .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Section Backgrounds */
+.section-grey {
+    background-color: #f7f9f9;
+    padding: 40px 8%;
+    margin: 20px 0;
+}
+/* Wellbeing Section */
+.wellbeing-container, .eat-container {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 40px 6%;
+    gap: 40px;
+}
+.wellbeing-content, .eat-content {
+    flex: 1.2;
+    text-align: left;
+}
+.wellbeing-content h2, .eat-content h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+}
+.wellbeing-features, .eat-features {
+    display: flex;
+    gap: 30px;
+}
+.feature-item {
+    flex: 1;
+}
+.icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+/* Leaf Icons */
+.green-icon { background-color: #2b5c5f; }
+.beige-icon { background-color: #e8c5b0; }
+.icon-box img {
+    width: 20px;
+    height: 20px;
+}
+.feature-item p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+.wellbeing-illustration, .eat-illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.wellbeing-illustration img, .eat-illustration img {
+    max-width: 250px;
+    height: auto;
+}
+/* Fresh Organic Produce Section */
+.organic-section {
+    padding: 60px 8%;
+}
+.produce-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.produce-image {
+    flex: 1;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.produce-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.produce-content {
+    flex: 1;
+    text-align: left;
+}
+.produce-content h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+.produce-content .main-desc {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+.list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.circle-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.list-item p {
+    color: #555;
+    font-size: 0.9rem;
+}
