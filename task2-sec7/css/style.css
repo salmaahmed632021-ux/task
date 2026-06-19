@@ -29,8 +29,6 @@ background-image: url(../img/road.png);
     position: absolute;
     top: 313px;
     left: -45px;
-}
-.img{
     animation-name: car;
     animation-duration: 3s;
     animation-iteration-count: infinite;
