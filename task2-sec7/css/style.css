@@ -1,0 +1,48 @@
+*{margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  padding: 15px 0px;
+  margin: auto;
+}
+.bg-img{
+background-image: url(../img/road.png);
+    background-size: 1543px 695px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-light{
+    background-color: white;
+}
+.padding-top-bottom
+{
+  padding: 2% 0%;
+}
+.img{
+    width: 537px;
+    height: 39%;
+    position: absolute;
+    top: 313px;
+    left: -45px;
+}
+.img{
+    animation-name: car;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes car{
+    0% {
+        transform:translateX(0px);
+    }
+    50% {
+      
+    }
+    100% {
+        transform:translateX(300%);
+    }
+}
