@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.my-container{
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    
+}
+.bg-img{
+    background-image: url(../img/background.png);
+    background-size: 1440px 1024px;
+    background-size: cover;
+    background-position: right top;
+    min-height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+.gap-1{
+    gap: 5px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 48px;
+}
+.nav-link{
+    margin-left: 163px;
+}
+.log-btn{
+  background-color: #198754;
+  border-radius: 50px;
+  padding: 10px 34px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  right: 175px;
+}
+.sign-btn{
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 10px 24px;
+  border: none;
+  color: #198754;
+  font-weight: 600;
+  font-size: 16px;
+  right: 155px;
+}
+
+.font{
+    font-size: 163px;
+}
+.start-btn{
+  background-color: #198754;
+  border-radius: 50px;
+  padding: 10px 27px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 23px;
+  right: 175px;
+}
+.more-btn{
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 10px 24px;
+  border: none;
+  color: #198754;
+  font-weight: 600;
+  font-size: 23px;
+  right: 155px;
+}
+.box{
+    width: 986px;
+    height: 152px; 
+    margin: 100px;
+}
+.num{
+    font-weight: bold;
+    font-size: 55px;
+    color: #232A42;
+}
+.plus{
+    font-size:35px ;
+    color: #198754;
+    padding-top: 24px;
+}
+.item{
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.item::after{
+    content: "";
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 1px;
+    height: 80px;
+    background: #999;
+}
+.card-img-top{
+    width: 10%;
+}
+.width{
+    width: 100%;
+}
+.height{
+    height: 100%;
+}
+.height-1{
+    height: 39%;
+}
+.text-body{
+    font-size: 19px;
+}
+.text-body-1{
+    font-size: 28px;
+}
+.width-1{
+    width: 90%;
+}
+.width-2{
+    width: 18%;
+}
+.margin-top-left-1{
+    margin-top: 70px;
+    margin-left: 221px;
+    font-size: 19px;
+}
+.margin-top-left-2{
+    margin-top: 70px;
+    margin-left: 100px;
+    font-size: 19px;
+}
+.margin-top-left-3{
+    margin-top: 70px;
+    margin-left: 285px;
+    font-size: 19px;
+}
+.margin-top-left-4{
+    margin-top: 70px;
+    margin-left: 310px;
+    font-size: 19px;
+}
+.margin-top-left{
+    margin-top: 35px;
+    margin-left: 59px;
+}
+.margin-left-2{
+    margin-left: 60px;
+}
+.pos{
+    position: absolute;
+    bottom: 57px;
+    left: 552px;
+}
+.pos-1{
+    position: absolute;
+    bottom: 544px;
+    left: -169px;
+}
+.pos-2{
+    position: relative;
+    bottom: 210px;
+    left: -53px;
+}
+.pos-3{
+    position: relative;
+    bottom: 210px;
+    left: -53px;
+}
+.view {
+  background-color: #ffffff;
+  border-radius: 29px !important; 
+  overflow: hidden;
+}
+.accordion-button {
+    background-color: #ffffff;
+    color: #1e293b;
+    font-weight: 600;
+    font-size: 35px;
+    padding: 55px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #198754; /* اللون الأخضر الجميل اللي في تصميمك */
+  color: #ffffff; /* كتابة بيضاء */
+}
+.accordion-collapse {
+  background-color: #198754;
+  color: #ffffff;
+}
+.accordion-body {
+  padding: 0px 50px 50px 50px;
+  font-size: 21px;
+}
+.accordion-button::after{
+    background-size: 37px;
+    width: 47px;
+    height: 36px;
+}
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0) invert(1);
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+.h:hover {
+    color: white;
+    background-color: #198754;
+}
+.h{
+    background-color: #ffffff;
+}
