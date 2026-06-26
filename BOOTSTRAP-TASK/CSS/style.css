@@ -197,8 +197,8 @@ html{
     padding: 55px;
 }
 .accordion-button:not(.collapsed) {
-  background-color: #198754; /* اللون الأخضر الجميل اللي في تصميمك */
-  color: #ffffff; /* كتابة بيضاء */
+  background-color: #198754; 
+  color: #ffffff; 
 }
 .accordion-collapse {
   background-color: #198754;
